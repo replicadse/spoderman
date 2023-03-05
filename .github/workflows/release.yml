@@ -5,6 +5,8 @@ on:
       version:
         description: "version"
         required: true
+permissions:
+  contents: write
 
 jobs:
   version:

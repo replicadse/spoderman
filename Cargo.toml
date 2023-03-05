@@ -1,13 +1,13 @@
 [package]
 name = "spoderman"
 version = "0.0.0"
-authors = ["Alexander Weber <aw@voidpointergroup.com>"]
+authors = ["replicadse <aw@voidpointergroup.com>"]
 edition = "2018"
 license = "MIT"
-description = "Yet another task runner as make alternative, inspired by GitLab pipelines."
+description = "A screen capture utility allowing you to draw, highlight and zoom."
 homepage = "https://replicadse.github.io/spoderman"
 repository = "https://github.com/replicadse/spoderman"
-keywords = ["make", "cli"]
+keywords = ["screen", "capture", "draw", "zoom"]
 categories = ["command-line-utilities"]
 readme = "docs/README.md"
 

@@ -35,12 +35,6 @@ pub enum ManualFormat {
 }
 
 #[derive(Debug)]
-pub enum Format {
-    JSON,
-    YAML,
-}
-
-#[derive(Debug)]
 pub enum Command {
     Manual { path: String, format: ManualFormat },
     Autocomplete { path: String, shell: clap_complete::Shell },
@@ -52,7 +46,7 @@ impl ClapArgumentLoader {
     pub fn root_command() -> clap::Command {
         clap::Command::new("spoderman")
             .version(env!("CARGO_PKG_VERSION"))
-            .about("A rusty text templating application for CLIs.")
+            .about("A screen capture utility allowing you to draw, highlight and zoom.")
             .author("replicadse <aw@voidpointergroup.com>")
             .propagate_version(true)
             .subcommand_required(true)
